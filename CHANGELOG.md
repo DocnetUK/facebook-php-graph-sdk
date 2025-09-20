@@ -6,8 +6,9 @@ Starting with version 5, the Facebook PHP SDK follows [SemVer](http://semver.org
 
 Version 5 of the Facebook PHP SDK is a complete refactor of version 4. It comes loaded with lots of new features and a friendlier API.
 
-- 5.7.1 (2018-XX-XX)
-  - Update supported version of PHP to `^8.0` in composer.json 
+- 5.7.1 (2025-XX-XX)
+  - Update supported version of PHP to `^8.0` in composer.json
+  - Update usages of http_build_query to avoid PHP Deprecation messages
 - 5.7.0 (2018-12-12)
   - Add `joined` to list of fields to be cast to `\DateTime` (#950)
   - Add `GraphPage::getFanCount()` to get the number of people who like the page (#815)
